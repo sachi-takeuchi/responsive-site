@@ -115,14 +115,15 @@ section h2 {
 
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;
     justify-content: space-between;
+    flex-direction: column;
   }
 }
 
 @media (max-width: 768px) {
   .content {
-    margin: 0 10px;
+    margin: 20px 0!important;
+    padding: 20px;
   }
 }
 
